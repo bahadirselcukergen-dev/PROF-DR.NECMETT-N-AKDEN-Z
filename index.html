@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Prof. Dr. Necmettin Akdeniz ile iletişimde kalın.">
+  <title>Prof. Dr. Necmettin Akdeniz | İletişim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root { color-scheme: light; --cream:#f7f5f0; --green:#173d37; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body { min-height: 100svh; background: var(--cream); color: var(--green); font-family: Montserrat, Arial, sans-serif; }
+    main { min-height: 100svh; display:flex; flex-direction:column; align-items:center; text-align:center; padding: 14px 22px 10px; }
+    .portrait { width:138px; height:138px; border:3px solid var(--green); border-radius:50%; padding:4px; overflow:hidden; margin-bottom:23px; }
+    .portrait img { width:100%; height:100%; object-fit:cover; object-position:50% 14.5%; border-radius:50%; display:block; }
+    h1 { font-family:'Playfair Display', Georgia, serif; font-size:30px; line-height:1.2; margin:0; font-weight:700; }
+    .role { margin:30px 0 0; font-size:20px; font-weight:400; letter-spacing:.01em; }
+    .intro { margin:43px 0 0; font-size:22px; line-height:1.4; }
+    .links { width:min(350px, 100%); display:grid; gap:12px; margin-top:94px; }
+    .link { min-height:54px; border-radius:999px; display:flex; align-items:center; justify-content:center; gap:10px; padding:10px 18px; background:var(--green); color:#fff; text-decoration:none; font-size:19px; font-weight:700; transition:transform .15s ease, background-color .15s ease; }
+    .link:hover { background:#20554c; transform:translateY(-1px); }
+    .link:focus-visible { outline:3px solid #77968d; outline-offset:3px; }
+    .icon { width:23px; height:23px; flex:none; }
+    footer { margin-top:auto; padding-top:72px; font-size:21px; line-height:1.4; }
+    @media (max-width:600px) {
+      main { padding:22px 20px 18px; }
+      .portrait { width:126px; height:126px; margin-bottom:22px; }
+      h1 { font-size:clamp(24px, 6vw, 30px); }
+      .role { margin-top:22px; font-size:16px; }
+      .intro { margin-top:34px; font-size:19px; }
+      .links { margin-top:72px; gap:11px; max-width:350px; }
+      .link { min-height:54px; font-size:17px; }
+      footer { padding-top:60px; font-size:17px; }
+    }
+    @media (prefers-reduced-motion: reduce) { *,*::before,*::after { transition:none!important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="portrait"><img src="assets/prof-dr-necmettin-akdeniz.png" alt="Prof. Dr. Necmettin Akdeniz"></div>
+    <h1>Prof. Dr. Necmettin Akdeniz</h1>
+    <p class="role">DERMATOLOJİ UZMANI</p>
+    <p class="intro">Bizimle iletişimde kalın</p>
+    <nav class="links" aria-label="Bağlantılar">
+      <a class="link" href="https://search.google.com/local/writereview?placeid=ChIJJVq1VDrGyhQRUp25puIFM2w" target="_blank" rel="noopener noreferrer">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 2.8 2.8 5.7 6.3.9-4.55 4.43 1.08 6.27L12 17.14l-5.63 2.96 1.08-6.27L2.9 9.4l6.3-.91L12 2.8Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <span>Google'da Yorum Bırak</span>
+      </a>
+      <a class="link" href="https://www.instagram.com/profdr.necmettinakdeniz/" target="_blank" rel="noopener noreferrer">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.3" y="3.3" width="17.4" height="17.4" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" stroke="currentColor" stroke-width="1.8"/><circle cx="17.7" cy="6.5" r="1.1" fill="currentColor"/></svg>
+        <span>Instagram Hesabımız</span>
+      </a>
+      <a class="link" href="https://www.drnecmettinakdeniz.com.tr/" target="_blank" rel="noopener noreferrer">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.2" stroke="currentColor" stroke-width="1.5"/><path d="M2.9 12h18.2M12 2.8c2.2 2.4 3.3 5.47 3.3 9.2s-1.1 6.8-3.3 9.2c-2.2-2.4-3.3-5.47-3.3-9.2S9.8 5.2 12 2.8Z" stroke="currentColor" stroke-width="1.4"/></svg>
+        <span>Web Sitemiz</span>
+      </a>
+    </nav>
+    <footer>İstanbul · Kadıköy/Feneryolu</footer>
+  </main>
+</body>
+</html>
